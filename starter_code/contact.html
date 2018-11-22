@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Your description goes here">
+        <meta name="keywords" content="one, two, three">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Contact</title>
+
+        <!--fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,800" rel="stylesheet">
+
+        <!-- external CSS link -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/parsley.css"> 
+        <link rel="stylesheet" href="css/style.css"> 
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo">
+                </div>
+                <nav>
+                    <a id="mobile-menu-trigger"><img src="images/hamburger-menu.svg" alt="menu"></a>
+                    <div>
+                        <ul id="navigation">
+                            <li><a href="index.html"> HOME</a></li>
+                            <li><a href="juice.html"> JUICES</a></li>
+                            <li><a href="smoothies.html"> SMOOTHIES</a></li>
+                            <li><a href="#"> TESTIMONIALS</a></li>
+                            <li><a href="contact.html"> CONTACT</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div class="container">
+            <div id="contact">
+                <h1>CONTACT</h1>
+                <div class="contact-item">
+                    <h3>Address&colon;</h3>
+                    <p>Shop No. 103</p>
+                    <p>Sydney Opera House</p>  
+                    <p>Bennelong Point, NSW 2000</p>
+                 </div>
+
+                 <div class="contact-item">
+                    <h3>Email&colon;</h3>
+                    <p>admin@freshjuice.com.au</p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>Telephone&colon;</h3>
+                    <p>+61 2 80805 9090</p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>Opening hours&colon;</h3>
+                    <p>Monday-Friday 9:00am-6:00pm</p>
+                    <p>Saturday-Sunday 9:00am-3:00pm</p>
+                </div>
+
+                <div class="contact-item">
+                    <form data-parsley-validate>
+
+                        <h3>Customer feedback&colon;</h3>
+                    
+                        <p>Full name&colon;</p>
+                        <input type="text" id="fullname" placeholder="Your full name" data-parsley-required>
+
+                        <p>Email&colon;</p>
+                        <input type="text" id="email" placeholder="Your email" data-parsley-required data-parsley-type="email">
+                        <br>
+                        <br>
+                        <br>
+                    
+                        <textarea name="feedback" placeholder="Your feedback" data-parsley-required data-parsley-maxlength='200'></textarea>
+                        
+                        <br>
+                        <br>
+
+                        <button>Submit</button>
+                    </form>
+                </div>
+            </div>
+
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313.2758964200575!2d151.21310801509762!3d-33.85677992586624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae665e892fdd%3A0x3133f8d75a1ac251!2sSydney+Opera+House!5e0!3m2!1sen!2sau!4v1541210714306" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+
+        <footer>
+            <div class="container">
+                <span class="facebook">
+                    <a href="https://www.facebook.com"><img src="images/facebook.svg" alt="facebook"></a>
+                </span>
+                <span>
+                    <a href="https://www.instagram.com"><img src="images/instagram.svg" alt="insta"></a>
+                </span>
+                <p>&copy; copyright Fresh Juice 2018</p>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.8.1/parsley.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <!--external javascript link-->
+        <script type="text/javascript" src="js/app.js"></script>
+    </body>
+</html>

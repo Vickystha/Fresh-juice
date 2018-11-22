@@ -1,0 +1,30 @@
+* Basic pseudocode for this site *
+
+HOME PAGE
+- Header navigations link to each individual web page.
+- Changes nav text color on hover.
+- First section of home page contains owl-carousel with autoPlayTimeout, autoPlayHoverPause features
+- Second section is "About Us"
+- Last section is "Menu" that links to 'Juices page' and 'Smoothies page'. Text color of links changes on hover.
+- Footer section with social media links and copyright.
+
+JUICES PAGE
+- Header navigations link to each individual web page.
+- Changes nav text color on hover.
+- First section is cover image
+- Second section contains juice menu with price.
+- Footer section with social media links and copyright.
+
+SMOOTHIES PAGE
+- Similar to JUICES PAGE
+
+CONTACT PAGE
+- Header navigations link to each individual web page.
+- Changes nav text color on hover.
+- Contact details on the main section
+- Feedback form
+- Location map on the right-hand side
+- Footer section with social media links and copyright.
+
+
+

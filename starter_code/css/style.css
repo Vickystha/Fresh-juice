@@ -1,0 +1,299 @@
+/******************************************
+/* BASE STYLE
+/*******************************************/
+.container{
+    width:70%;
+    margin:0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* responsive:mobile */
+@media (max-width:768px){
+    .container{
+        width:90%;
+    }
+
+    h1 {
+        font-size: 1.6em;
+        margin: 0.65em 0;
+    }
+}
+
+/******************************************
+/* HEADER
+/*******************************************/
+header{
+    position:fixed;
+    top:0; 
+    z-index: 2;
+    width: 100%;
+    background-color: #fff; 
+}
+
+body>.container{
+    margin-top:178px;
+}
+
+header .container{
+    display:flex;
+    padding:20px 0;
+    border-bottom:1px solid black;
+    align-items: center;
+}
+
+.logo{
+    width:30%;
+}
+
+.logo img{
+  max-width:100px;  
+}
+
+header nav {
+    width:70%; 
+}
+
+header nav ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100%;
+    margin:auto;
+    font-weight:600;
+    font-size:18px;
+}
+
+header nav ul a{
+    color:#000; 
+}
+
+header nav ul a:hover{
+    color:#ff9900;  
+}
+#mobile-menu-trigger{
+    display:none;
+    
+    height:100%;
+    text-align: right;
+}   
+/* responsive:mobile */
+@media (max-width:1024px){
+    #mobile-menu-trigger{
+        display:block;
+    }
+    header nav div{
+        display:none;
+    }
+    header .container{
+        position:relative;
+    }
+    header nav ul{
+        display:block;
+        position:absolute;
+        width:100%;
+        text-align:center;
+        left:0;
+        padding-left:0;
+    }
+    
+    header nav ul li{
+        border-bottom:1px solid black;
+        padding:5px 0;
+        background:rgba(255,255,255,.95);
+    }
+}
+
+
+/******************************************
+/* SECTIONS
+/*******************************************/
+.owl-carousel{
+    width: 70%;
+}
+
+.owl-carousel img{
+    height:300px;
+}
+
+section img{
+    width:100%;
+    margin-bottom: 20px;
+}
+
+section h3{
+    margin:0 0 10px 0;
+}
+
+.menu h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.menu h3 a{
+    color:#000;
+}
+
+.menu h3 a:hover{
+    color:#ff9900;
+}
+
+.readmore a, .readless a{
+    text-align:right;
+    color:#000;
+}
+
+.readmore, .readless{
+    text-align:right;
+}
+
+.readmore a:hover, .readless a:hover{
+    color:#ff9900;
+}
+
+
+.juice{
+    width:50%;
+    float:left;
+    padding-right:10px;
+    box-sizing: border-box;
+}
+
+.menu img{
+    height:280px;
+}
+
+.smoothie{
+    width:50%;
+    float:left;
+    padding-left:10px;
+    box-sizing: border-box;
+}
+
+.menu h3{
+    text-align: center;
+}
+
+.products div:not(.clear) {
+    float:left;
+    width:33.33%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+
+.products div img{
+    width:100%;
+    height:auto;
+}
+
+.products div span{
+    float:right;
+    font-family: 'Abel', sans-serif;  
+}
+
+.products p{
+    color: #6f6f6f;
+}
+
+.clear{
+    clear:both;
+}
+
+#contact{
+    float:left;
+    width:40%; 
+}
+
+.contact-item{
+    margin-top: 40px;
+}
+
+#map{
+    float: right;
+    width:55%;
+   margin-top: 60px;
+}
+
+#map iframe{
+    width:500px;
+}
+
+@media (max-width:768px){
+    .owl-carousel img {
+        height: auto;
+    }
+
+    .juice, .smoothie{
+        width:100%;
+    }
+
+    .juice{
+        margin-bottom: 40px;
+    }
+
+    .products div:not(.clear) {
+        width:100%;
+        height:auto;
+    }
+
+    #contact{
+        width:100%;
+        text-align:center;
+    }
+
+    #map iframe{
+        width:100%;
+    }
+
+    #map{
+        width: 100%;
+        height:auto;
+    }
+}
+
+/******************************************
+/* FORM
+/*******************************************/
+textarea{
+    width:300px;
+    height:160px;
+   resize:none;
+}
+
+input,textarea{
+    border:1px solid #cccccc;
+    padding:5px;
+    width:100%;
+    box-sizing: border-box;
+    
+}
+
+button{
+    background-color: #ccc;
+    padding: 5px 10px;
+}
+/******************************************
+/* FOOTER
+/*******************************************/
+footer img{
+    width:30px;
+    display:inline;
+}
+
+.facebook{
+    margin-right: 20px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer .container{
+    border-top: 1px solid black;
+    padding-top:50px;
+}
+
+/* EXTRA STYLE */
