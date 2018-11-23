@@ -73,23 +73,27 @@ header nav ul a{
 header nav ul a:hover{
     color:#ff9900;  
 }
+
 #mobile-menu-trigger{
     display:none;
-    
     height:100%;
     text-align: right;
-}   
+}  
+
 /* responsive:mobile */
 @media (max-width:1024px){
     #mobile-menu-trigger{
         display:block;
     }
+
     header nav div{
         display:none;
     }
+
     header .container{
         position:relative;
-    }
+    }  
+
     header nav ul{
         display:block;
         position:absolute;
@@ -106,7 +110,6 @@ header nav ul a:hover{
     }
 }
 
-
 /******************************************
 /* SECTIONS
 /*******************************************/
@@ -116,6 +119,12 @@ header nav ul a:hover{
 
 .owl-carousel img{
     height:300px;
+}
+
+.about p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6em;
 }
 
 section img{
@@ -152,7 +161,6 @@ section h3{
 .readmore a:hover, .readless a:hover{
     color:#ff9900;
 }
-
 
 .juice{
     width:50%;
@@ -274,6 +282,7 @@ button{
     background-color: #ccc;
     padding: 5px 10px;
 }
+
 /******************************************
 /* FOOTER
 /*******************************************/
@@ -296,4 +305,4 @@ footer .container{
     padding-top:50px;
 }
 
-/* EXTRA STYLE */
+
