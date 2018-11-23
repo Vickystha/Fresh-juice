@@ -4,7 +4,7 @@ HOME PAGE
 - Header navigations link to each individual web page.
 - Changes nav text color on hover.
 - First section of home page contains owl-carousel with autoPlayTimeout, autoPlayHoverPause features
-- Second section is "About Us"
+- Second section is "About Us (about company)"
 - Last section is "Menu" that links to 'Juices page' and 'Smoothies page'. Text color of links changes on hover.
 - Footer section with social media links and copyright.
 
