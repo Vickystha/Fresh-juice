@@ -150,7 +150,6 @@ section h3{
 }
 
 .readmore a, .readless a{
-    text-align:right;
     color:#000;
 }
 
@@ -259,6 +258,10 @@ section h3{
         width: 100%;
         height:auto;
     }
+
+    .about p{
+        font-size:16px;
+    }
 }
 
 /******************************************
@@ -288,7 +291,6 @@ button{
 /*******************************************/
 footer img{
     width:30px;
-    display:inline;
 }
 
 .facebook{
